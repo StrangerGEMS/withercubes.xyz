@@ -1,0 +1,64 @@
+html {
+	padding: 0px;
+	margin: 10px;
+}
+
+body {
+	font-family: Hack, courier, monospace;
+	font-size: 0.93em;
+	color: #fffaff;
+	background: #2E3440;
+	word-wrap: break-word;
+	width: 85%;
+	max-width: 950px;
+	padding: 40px 40px 40px 40px;
+	text-align: left;
+	margin: auto;
+	margin-top: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+code {
+	font-family: Hack, monospace;
+	background: #25262d;
+	border: 5px solid #25262d;
+	border-radius: 12px;
+	margin-top: 15px !important;
+	padding: 5px 5px;
+	display: block;
+}
+
+a {
+	color: #81a1c1;
+	text-decoration: none;
+}
+
+pre {
+	font-family: Hack, monospace;	
+	font-size: 0.85em;
+}
+
+.abold {text-shadow: 0.4px 0 #fffaff, 0 0.4px #fffaff, 0.4px 0 #fffaff, 0 0.4px #fffaff;}
+hr {margin: 0px 0px 0px 0px;}
+a:hover {color: #88c0d0}
+h1 {font-size: 2.5em;}
+
+@font-face {font-family: 'Hack';src: url('font/Hack-Regular.ttf'); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Hack';src: url('font/Hack-Bold.ttf'); font-weight: 700; font-style: bold;}
+@font-face {font-family: 'Hack';src: url('font/Hack-Italic.ttf'); font-weight: 400; font-style: italic;}
+@font-face {font-family: 'Hack';src: url('font/Hack-BoldItalic.ttf'); font-weight: 700; font-style: italic;}

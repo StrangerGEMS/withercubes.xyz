@@ -1,20 +1,21 @@
 html {
-	padding: 0px;
-	margin: 10px;
+  padding: 0px;
+  margin: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
-	font-family: Hack, courier, monospace;
-	font-size: 0.93em;
-	color: #fffaff;
-	background: #2E3440;
-	word-wrap: break-word;
-	width: 85%;
-	max-width: 950px;
-	padding: 40px 40px 40px 40px;
-	text-align: left;
-	margin: auto;
-	margin-top: 20px;
+  font-family: Hack, courier, monospace;
+  font-size: 0.93em;
+  color: #fefefe;
+  background: #2f323a;
+  word-wrap: break-word;
+  width: 85%;
+  max-width: 950px;
+  padding: 40px 40px 40px 40px;
+  text-align: left;
+  margin: auto;
+  margin-top: 20px;
 }
 
 ::-webkit-scrollbar {
@@ -34,29 +35,53 @@ body {
 }
 
 code {
-	font-family: Hack, monospace;
-	background: #25262d;
-	border: 5px solid #25262d;
-	border-radius: 12px;
-	margin-top: 15px !important;
-	padding: 5px 5px;
-	display: block;
+  font-family: Hack, monospace;
+  background: #4e4e4e;
+  border: 5px solid #4e4e4e;
+  border-radius: 12px;
+  margin-top: 15px !important;
+  padding: 5px 5px;
+  display: block;
 }
 
 a {
-	color: #81a1c1;
-	text-decoration: none;
+  color: #42a5f5;
+  text-decoration: none;
 }
 
 pre {
-	font-family: Hack, monospace;	
-	font-size: 0.85em;
+  font-family: Hack, monospace;	
+  font-size: 0.85em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .abold {text-shadow: 0.4px 0 #fffaff, 0 0.4px #fffaff, 0.4px 0 #fffaff, 0 0.4px #fffaff;}
 hr {margin: 0px 0px 0px 0px;}
-a:hover {color: #88c0d0}
+a:hover {color: #42a5f5; text-decoration: underline;}
 h1 {font-size: 2.5em;}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #2f323a;
+}
+
+.flex-container > div {
+  background-color: #2f323a;
+  width: 90px;
+  margin: 8spx;
+  /*text-align: center;*/
+  line-height: 25px;
+  font-size: 20px;
+}
 
 @font-face {font-family: 'Hack';src: url('font/Hack-Regular.ttf'); font-weight: 400; font-style: normal;}
 @font-face {font-family: 'Hack';src: url('font/Hack-Bold.ttf'); font-weight: 700; font-style: bold;}

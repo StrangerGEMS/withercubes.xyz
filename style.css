@@ -8,7 +8,7 @@ body {
   font-family: Hack, courier, monospace;
   font-size: 0.93em;
   color: #fefefe;
-  background: #2f323a;
+  background: #1c1f24;
   word-wrap: break-word;
   width: 85%;
   max-width: 950px;
@@ -36,8 +36,8 @@ body {
 
 code {
   font-family: Hack, monospace;
-  background: #4e4e4e;
-  border: 5px solid #4e4e4e;
+  background: #282c34;
+  border: 5px solid #282c34;
   border-radius: 12px;
   margin-top: 15px !important;
   padding: 5px 5px;
@@ -45,7 +45,7 @@ code {
 }
 
 a {
-  color: #42a5f5;
+  color: #51afef;
   text-decoration: none;
 }
 
@@ -64,18 +64,18 @@ img {
 
 .abold {text-shadow: 0.4px 0 #fffaff, 0 0.4px #fffaff, 0.4px 0 #fffaff, 0 0.4px #fffaff;}
 hr {margin: 0px 0px 0px 0px;}
-a:hover {color: #42a5f5; text-decoration: underline;}
+a:hover {color: #51afef; text-decoration: underline;}
 h1 {font-size: 2.5em;}
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #2f323a;
+  background-color: #1c1f24;
 }
 
 .flex-container > div {
-  background-color: #2f323a;
+  background-color: #1c1f24;
   width: 90px;
   margin: 8spx;
   /*text-align: center;*/

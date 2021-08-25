@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/css" href="rss.css" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
 <channel>
 <title>WitherCubes</title>
-<description>Updates from WitherCubes.</description>
+<description>WitherCubes RSS</description>
 <language>en-us</language>
 <link>https://withercubes.xyz/rss.xml</link>
 <atom:link href="https://withercubes.xyz/rss.xml" rel="self" type="application/rss+xml" />

@@ -1,3 +1,8 @@
+@font-face {font-family: 'Hack';src: url('font/Hack-Regular.ttf'); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Hack';src: url('font/Hack-Bold.ttf'); font-weight: 700; font-style: bold;}
+@font-face {font-family: 'Hack';src: url('font/Hack-Italic.ttf'); font-weight: 400; font-style: italic;}
+@font-face {font-family: 'Hack';src: url('font/Hack-BoldItalic.ttf'); font-weight: 700; font-style: italic;}
+
 html {
   padding: 0px;
   margin: 10px;
@@ -83,7 +88,19 @@ h1 {font-size: 2.5em;}
   font-size: 20px;
 }
 
-@font-face {font-family: 'Hack';src: url('font/Hack-Regular.ttf'); font-weight: 400; font-style: normal;}
-@font-face {font-family: 'Hack';src: url('font/Hack-Bold.ttf'); font-weight: 700; font-style: bold;}
-@font-face {font-family: 'Hack';src: url('font/Hack-Italic.ttf'); font-weight: 400; font-style: italic;}
-@font-face {font-family: 'Hack';src: url('font/Hack-BoldItalic.ttf'); font-weight: 700; font-style: italic;}
+.glow {
+  font-size: 40px;
+  font-family: monospace;
+  color: #ffffff;
+  text-align: center;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow:}
+  to {
+    text-shadow: 0 0 10px grey, 0 0 20px white, 0 0 30px #5e81ac, 0 0 40px #5e81ac, 0 0 50px #5e81ac, 0 0 60px #5e81ac;
+}

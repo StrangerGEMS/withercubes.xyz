@@ -44,9 +44,9 @@
 <br>
 <h2>Setting up MelonDS</h2>
 <p>First open up melonDS and go to Config → Emu Settings → DS-mode, select your Nintendo DS firmware location respectively and hit OK.</p>
-<img src="firmware-location.png" alt="firmware-location" />
+<img src="https://withercubes.xyz/blog/play-ds-games-linux/firmware-location.png" alt="firmware-location" />
 <p>Then the next step is to configure the controls. To do that go to Config → Input and hotkeys → DS keypad and configure your controls according to your needs and hit OK. Here is an example of my controls configuration.</p>
-<img src="controls.png" alt="controls" />
+<img src="https://withercubes.xyz/blog/play-ds-games-linux/controls.png" alt="controls" />
 <p>The last basic step to do is to configure the video settings and the screen layout. To adjust the video settings go to Config → Video settings and tweak the setting according to your needs. The screen layout can also be changed by choosing the desired screen layout in the same config menu.</p>
 <br>
 <h2>Start Playing!</h2>
@@ -54,9 +54,9 @@
 <br>
 <h2>Gameplay Screenshots</h2>
 <h3>Sonic Colors</h3>
-<img src="sonic-colors.png" alt="sonic-colors" />
+<img src="https://withercubes.xyz/blog/play-ds-games-linux/sonic-colors.png" alt="sonic-colors" />
 <h3>Call Of Duty - Black Ops</h3>
-<p><img src="call-of-duty.png" alt="call-of-duty" /></p>
+<img src="https://withercubes.xyz/blog/play-ds-games-linux/call-of-duty.png" alt="call-of-duty" />
 ]]></description>
 </item>
 

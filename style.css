@@ -1,62 +1,40 @@
-@font-face {font-family: 'Hack';src: url('font/Hack-Regular.ttf'); font-weight: 400; font-style: normal;}
-@font-face {font-family: 'Hack';src: url('font/Hack-Bold.ttf'); font-weight: 700; font-style: bold;}
-@font-face {font-family: 'Hack';src: url('font/Hack-Italic.ttf'); font-weight: 400; font-style: italic;}
-@font-face {font-family: 'Hack';src: url('font/Hack-BoldItalic.ttf'); font-weight: 700; font-style: italic;}
+* {
+  color: #c4c4c4;
+  font-family: sans-serif;
+}
 
 html {
   padding: 0px;
   margin: 10px;
   scroll-behavior: smooth;
+  background-color: #212121;
+}
+
+p, body, code, pre, li, ul {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
 
 body {
-  font-family: Hack, courier, monospace;
-  font-size: 0.93em;
-  color: #fefefe;
-  background: #1c1f24;
   word-wrap: break-word;
   width: 85%;
   max-width: 950px;
   padding: 40px 40px 40px 40px;
   text-align: left;
-  margin: auto;
-  margin-top: 20px;
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-}
- 
-::-webkit-scrollbar-thumb {
-  background: #888; 
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  margin: 0 auto;
+  max-width: 50em;
+  padding: 0 2em 0 2em;
 }
 
 code {
-  font-family: Hack, monospace;
-  background: #282c34;
-  border: 5px solid #282c34;
+  font-family: monospace;
+  background: #292929;
+  border: 5px solid #363636;
   border-radius: 12px;
   margin-top: 15px !important;
   padding: 5px 5px;
   display: block;
-}
-
-a {
-  color: #51afef;
-  text-decoration: none;
-}
-
-pre {
-  font-family: Hack, monospace;	
-  font-size: 0.85em;
 }
 
 img {
@@ -67,40 +45,20 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.abold {text-shadow: 0.4px 0 #fffaff, 0 0.4px #fffaff, 0.4px 0 #fffaff, 0 0.4px #fffaff;}
+li, ul {
+  position: relative;
+  left: -11px;
+}
+
+h1 {text-align: center;}
+a {text-decoration: none;}
+a:active, a:link, a:visited {color: #9b70ff;}
+a:hover {color: #bf69ff; text-decoration: none;}
+pre {font-family: monospace;}
 hr {margin: 0px 0px 0px 0px;}
-a:hover {color: #51afef; text-decoration: underline;}
-h1 {font-size: 2.5em;}
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: #1c1f24;
-}
-
-.flex-container > div {
-  background-color: #1c1f24;
-  width: 90px;
-  margin: 8spx;
-  /*text-align: center;*/
-  line-height: 25px;
-  font-size: 20px;
-}
-
-.glow {
-  font-size: 40px;
-  font-family: monospace;
-  color: #ffffff;
-  text-align: center;
-  -webkit-animation: glow 2s ease-in-out infinite alternate;
-  -moz-animation: glow 2s ease-in-out infinite alternate;
-  animation: glow 2s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glow {
-  from {
-    text-shadow:}
-  to {
-    text-shadow: 0 0 10px grey, 0 0 20px white, 0 0 30px #5e81ac, 0 0 40px #5e81ac, 0 0 50px #5e81ac, 0 0 60px #5e81ac;
-}
+::-webkit-scrollbar {width: 8px;}
+::-webkit-scrollbar-track {background: #c4c4c4;}
+::-webkit-scrollbar-thumb {background: #888;}
+::-webkit-scrollbar-thumb:hover {background: #555;}
+::selection {color: #c4c4c4; background: #9b70ff;}

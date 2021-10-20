@@ -1,6 +1,6 @@
 header {
   overflow: hidden;
-  background-color: #212121;
+  background-color: #202124;
   padding: 10px;
   border-radius: 10px;
 }
@@ -17,7 +17,7 @@ header a {
 }
 
 header a:hover, header a.active {
-  background-color: #9b70ff;
+  background-color: #8ab4f8;
   color: white;
 }
 

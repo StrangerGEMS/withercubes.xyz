@@ -7,7 +7,7 @@ html {
   padding: 0px;
   margin: 10px;
   scroll-behavior: smooth;
-  background-color: #212121;
+  background-color: #202124;
 }
 
 p, body, code, pre, li, ul {
@@ -29,11 +29,11 @@ body {
 
 code {
   font-family: monospace;
-  background: #292929;
+  background: #2c2d32;
   margin-top: 15px !important;
   padding: 5px 5px;
   display: block;
-  border: 5px solid #363636;
+  border: 5px solid #383a3f;
   border-radius: 12px;
 }
 
@@ -58,8 +58,8 @@ li, ul {
 
 h1 {text-align: center;}
 a {text-decoration: none;}
-a:active, a:link, a:visited {color: #9b70ff;}
-a:hover {color: #bf69ff; text-decoration: none;}
+a:active, a:link, a:visited {color: #8ab4f8;}
+a:hover {color: #4286f4; text-decoration: none;}
 pre {font-family: monospace;}
 hr {margin: 0px 0px 0px 0px;}
 
@@ -67,4 +67,4 @@ hr {margin: 0px 0px 0px 0px;}
 ::-webkit-scrollbar-track {background: #c4c4c4;}
 ::-webkit-scrollbar-thumb {background: #888;}
 ::-webkit-scrollbar-thumb:hover {background: #555;}
-::selection {color: #c4c4c4; background: #9b70ff;}
+::selection {color: #c4c4c4; background: #50525b;}

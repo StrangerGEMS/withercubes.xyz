@@ -41,7 +41,7 @@ It is recommended to not manually change the .SRCINFO file. The SRCINFO file is 
 
 To upload the package to the AUR, you first need to git clone your AUR repository.
 
-`$ git clone https://aur.archlinux.org/YOUR_PACKAGE_NAME.git`
+`$ git clone ssh://aur@aur.archlinux.org/YOUR_PACKAGE_NAME.git`
 
 You maybe thinking that you haven't created the repository, but you are able to clone the repository. The thing is that when you clone the repository, it creates the repository.
 

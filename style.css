@@ -62,6 +62,7 @@ a:active, a:link, a:visited {color: #8ab4f8;}
 a:hover {color: #4286f4; text-decoration: none;}
 pre {font-family: monospace;}
 hr {margin: 0px 0px 0px 0px;}
+footer {font-size: 1rem;}
 
 ::-webkit-scrollbar {width: 8px;}
 ::-webkit-scrollbar-track {background: #c4c4c4;}

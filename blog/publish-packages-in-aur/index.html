@@ -4,7 +4,6 @@
 <title>Publish your packages in the AUR</title>
 
 <link rel="stylesheet" href="../../style.css">
-<link rel="stylesheet" href="../../header.css">
 <link rel="shortcut icon" type="image/x-icon" href="../../avatar.png">
 <link rel="alternate" type="application/rss+xml" title="Subscribe to WitherCubes" href="https://withercubes.xyz/rss.xml"/>
 
@@ -28,10 +27,11 @@
 <body>
 
 <header>
-<a href="https://withercubes.xyz">Home</a>
+<a href="https://withercubes.xyz" class="title"><h2>Sanjay Pavan</h2></a>
 <nav>
+<a href="https://withercubes.xyz">Home</a>
 <a href="https://withercubes.xyz/blog">Blog</a>
-<a href="https://withercubes.xyz/rss.xml">RSS Feed</a>
+<a href="https://withercubes.xyz/rss.xml">RSS</a>
 </nav>
 </header>
 
@@ -60,7 +60,7 @@
 
 <p>First you need to go to <a href="https://aur.archlinux.org">aur.archlinux.org</a> and create an account, filling the details. The next step is to setup ssh keys so that you can submit packages. First you need to generate yor ssh keys using this command:</p>
 
-<code>$ ssh-keygen -f ~/.ssh/aur</code>
+<pre><code>$ ssh-keygen -f ~/.ssh/aur</code></pre>
 
 <p>The next step is to add these lines to <code>~/.ssh/config</code>. If you don't have the file, create one:</p>
 
@@ -76,7 +76,7 @@
 
 <p>In the location where you have kept your PKGBUILD file, run this command to generate the .SRCINFO file:</p>
 
-<code>$ makepkg --printsrcinfo > .SRCINFO</code>
+<pre><code>$ makepkg --printsrcinfo > .SRCINFO</code></pre>
 
 <p>It is recommended to not manually change the .SRCINFO file. The SRCINFO file is the metadata file for the AUR. When updating your package, run this command one more time to update the metadata.</p>
 
@@ -92,7 +92,7 @@
 
 <p>The last thing to do is to check if all your files needed for the package are there and commit to the repository using the following command:</p>
 
-<code>$ git add . && git commit -m "YOUR_COMMIT_MESSAGE" && git push</code>
+<pre><code>$ git add . && git commit -m "YOUR_COMMIT_MESSAGE" && git push</code></pre>
 
 <p>Note that when pushing the changes to the repository, you will be not asked for your password because the ssh keys are setup.</p>
 
@@ -100,12 +100,13 @@
 
 <p>Once you have pushed your changes to the AUR, test your package if it is building and installing properly, just to be in the safe side. For testing use an AUR helper to install the package or install it manually by running:</p>
 
-<code>$ git clone https://aur.archlinux.org/YOUR_PACKAGE_NAME.git && cd YOUR_PACKAGE_NAME && makepkg -si</code>
+<pre><code>$ git clone https://aur.archlinux.org/YOUR_PACKAGE_NAME.git && cd YOUR_PACKAGE_NAME && makepkg -si</code></pre>
 
 <p>If it builds properly, that's amazing, but if there are any issues, debug it and push your changes.</p>
 
 <p>That is it for this blog on how to submit and publish your packages in the AUR. Make sure you check out the sources I mentioned above for making a proper PKGBUILD.</p>
 
+<br>
 <footer>Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a></footer>
 </body>
 </html>

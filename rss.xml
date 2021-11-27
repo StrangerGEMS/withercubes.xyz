@@ -35,7 +35,7 @@
 </ul>
 <h2 id="setting-up-account">Setting up the AUR account</h2>
 <p>First you need to go to <a href="https://aur.archlinux.org">aur.archlinux.org</a> and create an account, filling the details. The next step is to setup ssh keys so that you can submit packages. First you need to generate yor ssh keys using this command:</p>
-<code>$ ssh-keygen -f ~/.ssh/aur</code>
+<pre><code>$ ssh-keygen -f ~/.ssh/aur</code></pre>
 <p>The next step is to add these lines to <code>~/.ssh/config</code>. If you don't have the file, create one:</p>
 <pre><code>Host aur.archlinux.org
   IdentityFile ~/.ssh/aur
@@ -44,7 +44,7 @@
 <p>The final step is to copy the contents of <code>~/.ssh/aur.pub</code> and paste it in the SSH Public Key section in My Account tab and save the changes.</p>
 <h2 id="creating-needed-files">Creating needed files</h2>
 <p>In the location where you have kept your PKGBUILD file, run this command to generate the .SRCINFO file:</p>
-<code>$ makepkg --printsrcinfo > .SRCINFO</code>
+<pre><code>$ makepkg --printsrcinfo > .SRCINFO</code></pre>
 <p>It is recommended to not manually change the .SRCINFO file. The SRCINFO file is the metadata file for the AUR. When updating your package, run this command one more time to update the metadata.</p>
 <h2 id="uploading-files-to-aur">Uploading the PKGBUILD to the AUR</h2>
 <p>To upload the package to the AUR, you first need to git clone your AUR repository.</p>
@@ -52,13 +52,14 @@
 <p>You maybe thinking that you haven&#8217;t created the repository, but you are able to clone the repository. The thing is that when you clone the repository, it creates the repository.</p>
 <p>The next thing to do is to copy the PKGBUILD, .SRCINFO and any other files needed for the package to the repository's folder.</p>
 <p>The last thing to do is to check if all your files needed for the package are there and commit to the repository using the following command:</p>
-<code>$ git add . && git commit -m "YOUR_COMMIT_MESSAGE" && git push</code>
+<pre><code>$ git add . && git commit -m "YOUR_COMMIT_MESSAGE" && git push</code></pre>
 <p>Note that when pushing the changes to the repository, you will be not asked for your password because the ssh keys are setup.</p>
 <h2 id="testing-aur-package">Testing the AUR package</h2>
 <p>Once you have pushed your changes to the AUR, test your package if it is building and installing properly, just to be in the safe side. For testing use an AUR helper to install the package or install it manually by running:</p>
-<code>$ git clone https://aur.archlinux.org/YOUR_PACKAGE_NAME.git && cd YOUR_PACKAGE_NAME && makepkg -si</code>
+<pre><code>$ git clone https://aur.archlinux.org/YOUR_PACKAGE_NAME.git && cd YOUR_PACKAGE_NAME && makepkg -si</code></pre>
 <p>If it builds properly, that's amazing, but if there are any issues, debug it and push your changes.</p>
 <p>That is it for this blog on how to submit and publish your packages in the AUR. Make sure you check out the sources I mentioned above for making a proper PKGBUILD.</p>
+<br>
 <footer>Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a></footer>
 ]]></description>
 </item>
@@ -72,9 +73,9 @@
 <p>This is a quick and dirty tutorial on how to play Nintendo DS games on linux using MelonDS emulator. Back in its prime, the Nintendo DS was one of the most successful hand-held consoles of all time. Unfortunately, that time has passed, and Nintendo doesn’t sell the console in stores anymore. Many people wish to play the old games for entertainment, so let&#8217;s see how to play Nintendo DS games on linux.</p>
 <h2>Install MelonDS</h2>
 <h3>Snap</h3>
-<code>$ sudo snap install melonds</code>
+<pre><code>$ sudo snap install melonds</code></pre>
 <h3>Arch Linux (using AUR)</h3>
-<code>$ git clone https://aur.archlinux.org/melonds-git.git && cd melonds-git && makepkg -si</code>
+<pre><code>$ git clone https://aur.archlinux.org/melonds-git.git && cd melonds-git && makepkg -si</code></pre>
 <h3>Other Distributions</h3>
 <ul>
 <li>Visit the <a href="http://melonds.kuribo64.net/downloads.php">MelonDS website</a> and download the latest <strong>Linux x64</strong> version.</li>
@@ -90,17 +91,18 @@
 <p><strong>Note: I do not condone any piracy, I am just linking to public sources. Download the game ROMS and firmware at your own risk.</strong></p>
 <h2>Setting up MelonDS</h2>
 <p>First open up melonDS and go to Config → Emu Settings → DS-mode, select your Nintendo DS firmware location respectively and hit OK.</p>
-<img src="https://withercubes.xyz/blog/play-ds-games-linux/firmware-location.png" alt="firmware-location" />
+<img src="firmware-location.png" alt="firmware-location" />
 <p>Then the next step is to configure the controls. To do that go to Config → Input and hotkeys → DS keypad and configure your controls according to your needs and hit OK. Here is an example of my controls configuration.</p>
-<img src="https://withercubes.xyz/blog/play-ds-games-linux/controls.png" alt="controls" />
+<img src="controls.png" alt="controls" />
 <p>The last basic step to do is to configure the video settings and the screen layout. To adjust the video settings go to Config → Video settings and tweak the setting according to your needs. The screen layout can also be changed by choosing the desired screen layout in the same config menu.</p>
 <h2>Start Playing!</h2>
 <p>Once you have configured MelonDS, its time to start playing. Most of the games work perfectly fine, but you may have issues in some games like framerate issues and audio issues. The solution is to change the internal resolution in video settings.</p>
 <h2>Gameplay Screenshots</h2>
 <h3>Sonic Colors</h3>
-<img src="https://withercubes.xyz/blog/play-ds-games-linux/sonic-colors.png" alt="sonic-colors" />
+<img src="sonic-colors.png" alt="sonic-colors" />
 <h3>Call Of Duty - Black Ops</h3>
-<img src="https://withercubes.xyz/blog/play-ds-games-linux/call-of-duty.png" alt="call-of-duty" />
+<img src="call-of-duty.png" alt="call-of-duty" />
+<br>
 <footer>Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a></footer>
 ]]></description>
 </item>

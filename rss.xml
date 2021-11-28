@@ -48,7 +48,7 @@
 <p>It is recommended to not manually change the .SRCINFO file. The SRCINFO file is the metadata file for the AUR. When updating your package, run this command one more time to update the metadata.</p>
 <h2 id="uploading-files-to-aur">Uploading the PKGBUILD to the AUR</h2>
 <p>To upload the package to the AUR, you first need to git clone your AUR repository.</p>
-<code>$ git clone ssh://aur@aur.archlinux.org/YOUR_PACKAGE_NAME.git</code>
+<pre><code>$ git clone ssh://aur@aur.archlinux.org/YOUR_PACKAGE_NAME.git</code></pre>
 <p>You maybe thinking that you haven&#8217;t created the repository, but you are able to clone the repository. The thing is that when you clone the repository, it creates the repository.</p>
 <p>The next thing to do is to copy the PKGBUILD, .SRCINFO and any other files needed for the package to the repository's folder.</p>
 <p>The last thing to do is to check if all your files needed for the package are there and commit to the repository using the following command:</p>

@@ -16,6 +16,8 @@ I would do blog posts on the topics below eventually, when I am not being lazy. 
 ## Misc
 
 - Software I use
-- Checking out Void Linux, Nix OS
+- Stuff that rocks
+- Arch Linux, Void Linux, Nix OS Installation Guide
 - Virtualbox and QEMU (KVM) setup tutorial
 - Debloating Android
+- fsck to fix superblocks, btrfs guide

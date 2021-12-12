@@ -1,5 +1,5 @@
 * {
-  color: #c4c4c4;
+  color: #ebdbb2;
   font-family: monaco, monospace;
 }
 
@@ -7,7 +7,7 @@ html {
   padding: 0px;
   margin: 10px;
   scroll-behavior: smooth;
-  background-color: #202124;
+  background-color: #282828;
 }
 
 p, body, code, pre, li, ul {
@@ -36,12 +36,12 @@ pre {
 
 code {
   font-family: monospace;
-  background: #44454d;
+  background: #1d2021;
   padding: 2px 5px;
 }
 
 pre code {
-  background: #2c2d32;
+  background: #32302f;
   display: block;
   padding: 20px;
   white-space: pre-wrap;
@@ -75,15 +75,15 @@ ul.blog-posts li span {
 h1, h2, h3 { font-weight: bold; margin-top: 1em; }
 h1 { font-size: 2em; }
 a {text-decoration: none;}
-a:active, a:link, a:visited {color: #8ab4f8;}
-a:hover {color: #4286f4; text-decoration: none;}
+a:active, a:link, a:visited {color: #b8bb26;}
+a:hover {color: #98971a; text-decoration: none;}
 pre {font-family: monospace;}
 hr {margin: 0px 0px 0px 0px;}
 nav a {margin-right: 10px;}
 footer {font-size: 1rem;}
 
 ::-webkit-scrollbar {width: 8px;}
-::-webkit-scrollbar-track {background: #c4c4c4;}
+::-webkit-scrollbar-track {background: #ebdbb2;}
 ::-webkit-scrollbar-thumb {background: #888;}
 ::-webkit-scrollbar-thumb:hover {background: #555;}
-::selection {color: #c4c4c4; background: #50525b;}
+::selection {color: #ebdbb2; background: #928374;}

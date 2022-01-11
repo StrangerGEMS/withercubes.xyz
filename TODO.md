@@ -20,4 +20,4 @@ I would do blog posts on the topics below eventually, when I am not being lazy. 
 - Arch Linux, Void Linux, Nix OS Installation Guide
 - Virtualbox and QEMU (KVM) setup tutorial
 - Debloating Android
-- fsck to fix superblocks, btrfs guide
+- btrfs guide

@@ -1,10 +1,10 @@
 :root {
-    --fg: #c0caf5;
-    --bg: #1a1b26;
-    --bg_2: #242730;
-    --bg_3: #24283b;
-    --link_v: #7aa2f7;
-    --link_h: #bb9af7;
+    --fg: #D9E0EE;
+    --bg: #1E1D2F;
+    --bg_2: #1A1823;
+    --bg_3: #302D41;
+    --link_v: #96CDFB;
+    --link_h: #DDB6F2;
 }
 
 [data-theme="gruvbox"] {

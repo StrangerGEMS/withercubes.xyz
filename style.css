@@ -35,7 +35,7 @@ p, body, code, pre, li, ul {
 body {
     color: var(--fg);
     background: var(--bg);
-    font-family: monaco, monospace;
+    font-family: monaco, Hack;
     word-wrap: break-word;
     width: 85%;
     max-width: 950px;
@@ -106,3 +106,8 @@ footer {font-size: 1rem;}
 ::-webkit-scrollbar-thumb {background: var(--bg_3);}
 ::-webkit-scrollbar-thumb:hover {background: var(--bg_2);}
 ::selection {color: var(--fg); background: var(--bg_3);}
+
+@font-face {font-family: 'Hack';src: url('fonts/Hack-Regular.ttf'); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Hack';src: url('fonts/Hack-Bold.ttf'); font-weight: 700; font-style: bold;}
+@font-face {font-family: 'Hack';src: url('fonts/Hack-Italic.ttf'); font-weight: 400; font-style: italic;}
+@font-face {font-family: 'Hack';src: url('fonts/Hack-BoldItalic.ttf'); font-weight: 700; font-style: italic;}

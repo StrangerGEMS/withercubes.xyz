@@ -3,8 +3,8 @@
     --bg: #1E1E2E;
     --bg_2: #302D41;
     --bg_3: #1A1826;
-    --link_v: #B5E8E0;
-    --link_h: #96CDFB;
+    --link_v: #96CDFB;
+    --link_h: #B5E8E0;
     --h_color: #ABE9B3;
 }
 
@@ -15,6 +15,7 @@
     --bg_3: #32302f;
     --link_v: #b8bb26;
     --link_h: #98971a;
+    --h_color: #D65D0E;
 }
 
 * {
@@ -48,7 +49,7 @@ body {
 }
 
 pre {
-    font-family: monaco, monospace;
+    font-family: Hack;
     font-size: 14px;
     overflow-x: auto;
     padding: 1em;

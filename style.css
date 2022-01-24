@@ -37,7 +37,7 @@ p, body, code, pre, li, ul {
 body {
     color: var(--fg);
     background: var(--bg);
-    font-family: monaco, Hack;
+    font-family: Hack;
     word-wrap: break-word;
     width: 85%;
     max-width: 950px;

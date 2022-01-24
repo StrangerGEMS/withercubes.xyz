@@ -1,10 +1,11 @@
 :root {
     --fg: #D9E0EE;
     --bg: #1E1E2E;
-    --bg_2: #1A1826;
-    --bg_3: #302D41;
-    --link_v: #96CDFB;
-    --link_h: #DDB6F2;
+    --bg_2: #302D41;
+    --bg_3: #1A1826;
+    --link_v: #B5E8E0;
+    --link_h: #96CDFB;
+    --h_color: #ABE9B3;
 }
 
 [data-theme="gruvbox"] {
@@ -92,6 +93,7 @@ ul.blog-posts li span {
 }
 
 h1, h2, h3 {font-weight: bold; margin-top: 1em;}
+h1, h2, h3, h4, h5, h6 {color: var(--h_color);}
 h1 {font-size: 2em;}
 a {text-decoration: none;}
 a:active, a:link, a:visited {color: var(--link_v);}
@@ -103,9 +105,9 @@ footer {font-size: 1rem;}
 
 ::-webkit-scrollbar {width: 8px;}
 ::-webkit-scrollbar-track {background: var(--bg);}
-::-webkit-scrollbar-thumb {background: var(--bg_3);}
-::-webkit-scrollbar-thumb:hover {background: var(--bg_2);}
-::selection {color: var(--fg); background: var(--bg_3);}
+::-webkit-scrollbar-thumb {background: var(--bg_2);}
+::-webkit-scrollbar-thumb:hover {background: var(--bg_3);}
+::selection {color: var(--fg); background: var(--bg_2);}
 
 @font-face {font-family: 'Hack';src: url('fonts/Hack-Regular.ttf'); font-weight: 400; font-style: normal;}
 @font-face {font-family: 'Hack';src: url('fonts/Hack-Bold.ttf'); font-weight: 700; font-style: bold;}
